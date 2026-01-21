@@ -19,5 +19,11 @@
 @layer utilities {
   .container {
     margin-inline: auto;
+    padding-left: 11rem;
+    padding-right: 11rem;
   }
+}
+
+body {
+  font-family: var(--font-poppins);
 }
