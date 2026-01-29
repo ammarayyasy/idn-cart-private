@@ -20,8 +20,8 @@
 @layer utilities {
   .container {
     margin-inline: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 11rem;
+    padding-right: 11rem;
   }
 }
 
