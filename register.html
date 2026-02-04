@@ -111,175 +111,81 @@
     </nav>
     <!-- navbar end -->
 
-    <!-- breadcumb -->
-    <div class="container flex items-center py-4 gap-3">
-      <a class="text-base text-primary" href="">
-        <i class="fa-solid fa-house"></i>
-      </a>
-      <span class="text-sm text-gray-400">
-        <i class="fa-solid fa-chevron-right"></i>
-      </span>
-      <p class="text-gray-600 font-medium">My Account</p>
-    </div>
-    <!-- breadcumb end -->
-
-    <!-- account wrapper -->
-    <div class="container grid grid-cols-12 pt-4 pb-16 gap-6 items-start">
-        <!-- sidebar -->
-        <div class="col-span-3">
-            <!-- account sidebar -->
-            <div class="px-4 py-3 shadow flex items-center gap-4">
-                <div class="shrink-0">
-                    <img src="public/images/avatar.png" alt="" class="w-14 h-14 p-1 rounded-full object-cover">
-                </div>
-                <div class="grow">
-                    <p class="text-gray-600">Hello,</p>
-                    <h4 class="text-gray-800 font-medium">Ammar Ayyasy</h4>
-                </div>
-            </div>
-            <!-- account sidebar end -->
-            <!-- sidebar links -->
-            <div class="mt-6 bg-white shadow rounded p-4 text-gray-600 divide-y divide-gray-200">
-                <!-- single link -->
-                <div class="pb-3 pl-8 space-y-1">
-                    <a href="" class="relative text-primary block font-semibold capitalize transition">
-                        <span class="absolute -left-8 top-0 text-base">
-                            <i class="fa-regular fa-address-card"></i>
-                        </span>
-                        manage account
-                    </a>
-                    <a href="" class=" text-primary block capitalize transition">
-                        profile info
-                    </a>
-                    <a href="" class=" text-gray-800 block hover:text-primary capitalize transition">
-                        manage address
-                    </a>
-                    <a href="" class=" text-gray-800 block hover:text-primary capitalize transition">
-                        change password
-                    </a>
-                </div>
-                <!-- single link end -->
-                <!-- single link -->
-                <div class="py-3 pl-8 space-y-1">
-                    <a href="" class="relative text-gray-800 hover:text-primary block font-semibold capitalize transition">
-                        <span class="absolute -left-8 top-0 text-base">
-                            <i class="fa-regular fa-bag-shopping"></i>
-                        </span>
-                        my order history
-                    </a>
-                    <a href="" class="relative text-gray-800 block hover:text-primary capitalize transition">
-                        my returns
-                    </a>
-                    <a href="" class="relative text-gray-800 block hover:text-primary capitalize transition">
-                        my cancellations
-                    </a>
-                    <a href="" class="relative text-gray-800 block hover:text-primary capitalize transition">
-                        my reviews
-                    </a>
-                </div>
-                <!-- single link end -->
-                <!-- single link -->
-                <div class="py-3 pl-8 space-y-1">
-                    <a href="" class="relative text-gray-800 hover:text-primary block font-semibold capitalize transition">
-                        <span class="absolute -left-8 top-0 text-base">
-                            <i class="fa-regular fa-credit-card"></i>
-                        </span>
-                        payment methods
-                    </a>
-                    <a href="" class="relative text-gray-800 block hover:text-primary capitalize transition">
-                        voucher
-                    </a>
-                </div>
-                <!-- single link end -->
-                <!-- single link -->
-                <div class="py-3 pl-8 space-y-1">
-                    <a href="" class="relative text-gray-800 hover:text-primary block font-semibold capitalize transition">
-                        <span class="absolute -left-8 top-0 text-base">
-                            <i class="fa-regular fa-heart"></i>
-                        </span>
-                        my wishlist
-                    </a>
-                </div>
-                <!-- single link end -->
-                <!-- single link -->
-                <div class="py-3 pl-8 space-y-1">
-                    <a href="" class="relative text-gray-800 hover:text-primary block font-semibold capitalize transition">
-                        <span class="absolute -left-8 top-0 text-base">
-                            <i class="fa-solid fa-right-from-bracket"></i>
-                        </span>
-                        logout
-                    </a>
-                </div>
-                <!-- single link end -->
-            </div>
-            <!-- sidebar links end -->
-        </div>
-        <!-- sidebar end -->
-
-        <!-- profile -->
-        <div class="col-span-9 shadow rounded px-6 pt-5 pb-7">
-          <h4 class="text-xl font-medium capitalize mb-3">profile information</h4>
+    <!-- register form -->
+    <div class="container py-16">
+      <div class="max-w-lg mx-auto shadow px-6 py-7 rounded overflow-hidden">
+        <h2 class="text-2xl uppercase font-medium mb-1">create an account</h2>
+        <p class="text-gray-600 text-sm mb-6">Register here if you don't have an account</p>
+        <form action="">
           <div class="space-y-4">
-            <!-- form row -->
-            <div class="grid grid-cols-2 gap-4">
-              <!-- single input -->
-              <div>
-                <label for="" class="text-gray-600 mb-2 block">First name</label>
-                <input type="text" class="input-box" placeholder="Enter first name">
-              </div>
-              <!-- single input end -->
-              <!-- single input -->
-              <div>
-                <label for="" class="text-gray-600 mb-2 block">Last name</label>
-                <input type="text" class="input-box" placeholder="Enter last name">
-              </div>
-              <!-- single input end -->
+            <div>
+              <label class="text-gray-600 mb-2 block">
+                Fullname
+                <span class="text-primary">*</span>
+              </label>
+              <input type="text" name="" class="input-box" placeholder="John Doe" />
             </div>
-            <!-- form row end -->
-            <!-- form row -->
-            <div class="grid grid-cols-2 gap-4">
-              <!-- single input -->
-              <div>
-                <label for="" class="text-gray-600 mb-2 block">Birthday</label>
-                <input type="date" class="input-box">
-              </div>
-              <!-- single input end -->
-              <!-- single input -->
-              <div>
-                <label for="" class="text-gray-600 mb-2 block">Gender</label>
-                <select class="input-box" name="" id="">
-                  <option value="">Male</option>
-                  <option value="">Female</option>
-                </select>
-              </div>
-              <!-- single input end -->
+            <div>
+              <label class="text-gray-600 mb-2 block">
+                Email address
+                <span class="text-primary">*</span>
+              </label>
+              <input type="email" name="" class="input-box" placeholder="example@mail.com" />
             </div>
-            <!-- form row end -->
-            <!-- form row -->
-            <div class="grid grid-cols-2 gap-4">
-              <!-- single input -->
-              <div>
-                <label for="" class="text-gray-600 mb-2 block">Email address</label>
-                <input type="email" class="input-box" placeholder="Enter email address">
-              </div>
-              <!-- single input end -->
-              <!-- single input -->
-              <div>
-                <label for="" class="text-gray-600 mb-2 block">Phone number</label>
-                <input type="number" class="input-box" placeholder="Enter phone number">
-              </div>
-              <!-- single input end -->
+            <div>
+              <label class="text-gray-600 mb-2 block">
+                Password
+                <span class="text-primary">*</span>
+              </label>
+              <input type="password" name="" class="input-box" placeholder="Enter password" />
             </div>
-            <!-- form row end -->
-            <div class="mt-5">
-              <button class="bg-primary border border-primary px-4 py-3 text-white font-medium rounded-md hover:bg-transparent hover:text-primary transition uppercase">Save changes</button>
+            <div>
+              <label class="text-gray-600 mb-2 block">
+                Confirm password
+                <span class="text-primary">*</span>
+              </label>
+              <input type="password" name="" class="input-box" placeholder="Retype password" />
+            </div>
+            <div class="flex items-center justify-between mt-6">
+              <div class="flex items-center">
+                <input type="checkbox" id="agreement" class="text-primary focus:ring-0 rounded-sm cursor-pointer" />
+                <label for="agreement" class="text-gray-600 ml-3 cursor-pointer">
+                    I have read and agree to <a href="" class="text-primary">the terms & conditions</a>
+                </label>
+              </div>
+            </div>
+            <div class="mt-4">
+              <button type="submit" class="bg-primary w-full text-white py-2 border border-primary rounded hover:bg-transparent hover:text-primary transition uppercase font-roboto font-medium">
+                Register
+              </button>
             </div>
           </div>
-        </div>
-        <!-- profile end -->
-    </div>
-    <!-- account wrapper end -->
+        </form>
 
+        <!-- login with -->
+        <div class="mt-6 flex justify-center relative">
+          <div class="text-gray-600 uppercase px-3 bg-white z-10">Or login with</div>
+          <div class="absolute left-0 top-3 w-full border-b-2 border-gray-200"></div>
+        </div>
+        <div class="mt-4 flex gap-4">
+          <a href="" class="bg-blue-800 w-1/2 py-2 text-center text-white rounded uppercase font-roboto font-medium text-sm hover:bg-blue-700">
+            <i class="mr-2 fa-brands fa-facebook"></i>
+            Facebook
+          </a>
+          <a href="" class="bg-gray-900 w-1/2 py-2 text-center text-white rounded uppercase font-roboto font-medium text-sm hover:bg-gray-700">
+            <i class="mr-2 fa-brands fa-github"></i>
+            Github
+          </a>
+        </div>
+        <!-- login with end -->
+
+        <p class="mt-4 text-gray-600 text-center">
+          Already have an account? 
+          <a href="login.html" class="text-primary">Login now</a>
+        </p>
+      </div>
+    </div>
+    <!-- register form end -->
 
     <!-- footer -->
     <footer class="bg-white pt-16 pb-12 border-t border-gray-100">
